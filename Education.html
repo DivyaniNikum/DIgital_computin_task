@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education | </title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+        color: #fff;
+    }
+
+    nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        background-color: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+    }
+
+    .nav-container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .logo span {
+        color: #00ff88;
+    }
+
+    .links {
+        display: flex;
+        gap: 30px;
+    }
+
+    .link a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .link a:hover {
+        color: #00ff88;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 80px auto 0;
+        padding: 2rem;
+    }
+
+    .education-section {
+        background-color: rgba(0, 0, 0, 0.3);
+        padding: 2rem;
+        border-radius: 15px;
+        border: 1px solid rgba(0, 255, 136, 0.3);
+        backdrop-filter: blur(10px);
+    }
+
+    .education-section h1 {
+        color: #00ff88;
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    .education-timeline {
+        position: relative;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .timeline-item {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 1.5rem;
+        border-radius: 10px;
+        margin-bottom: 2rem;
+        border-left: 4px solid #00ff88;
+        transition: transform 0.3s ease;
+    }
+
+    .timeline-item:hover {
+        transform: translateX(10px);
+    }
+
+    .timeline-item h2 {
+        color: #00ff88;
+        margin-bottom: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .timeline-item h3 {
+        color: #fff;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        opacity: 0.9;
+    }
+
+    .timeline-item p {
+        color: #fff;
+        line-height: 1.6;
+        opacity: 0.8;
+    }
+
+    @media (max-width: 768px) {
+        .nav-container .links {
+            display: none;
+        }
+        
+        .education-section h1 {
+            font-size: 2rem;
+        }
+        
+        .timeline-item {
+            padding: 1rem;
+        }
+        
+        .timeline-item h2 {
+            font-size: 1.3rem;
+        }
+        
+        .timeline-item h3 {
+            font-size: 1.1rem;
+        }
+    }
+</style>
+</head>
+<body>
+    <header>
+        <a href="" class="logo"><i>Divyani Nikum</i></a>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                    Divyani<span>Nikum</span>
+                </div>
+                <div class="links">
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="Ab.html">About</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="Education.html">Education</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="projects.html">project</a></div>
+                    <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contect.html">Contact</a></div>
+                </div>
+             
+           
+        </nav>
+    </header>
+    <div class="container">
+        <div class="education-section">
+            <h1>Education</h1>
+            
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <h2>B.Tech (Running)</h2>
+                    <h3>Computer Science & Engineering</h3>
+                    <p>Currently pursuing B.Tech degree and passionate about learning new technologies.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h2>12th Passed</h2>
+                    <h3>Science Stream</h3>
+                    <p>Successfully completed higher secondary education with good academic performance.</p>
+                </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
+
